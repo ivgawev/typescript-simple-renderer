@@ -1,0 +1,24 @@
+{
+      "compilerOptions": {
+            "target": "ESNext",
+            "lib": ["ESNext", "DOM", "DOM.Iterable"],
+
+            "module": "ESNext",
+            "moduleResolution": "Node",
+            "esModuleInterop": true,
+            "isolatedModules": true,
+
+            "allowJs": true,
+            "forceConsistentCasingInFileNames": true,
+
+            "baseUrl": ".",
+            "paths": {
+                  "#/*": ["*"]
+            },
+
+            "types": ["node"]
+      },
+
+      "include": ["**/*.ts"],
+      "exclude": ["node_modules"]
+}
