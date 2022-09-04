@@ -44,6 +44,15 @@ class Renderer {
                   object.rotate();
             }
 
+            setTimeout(() => {
+                  if (this.width !== window.innerWidth || this.height !== window.innerHeight) {
+                        this.width = window.innerWidth;
+                        this.height = window.innerHeight;
+                        this.canvas.width = this.width;
+                        this.canvas.height = this.height;
+                  }
+            }, 100);
+
             window.requestAnimationFrame(this.render);
       }
 }
