@@ -31,7 +31,7 @@
 
       // PROJECT
       "files.exclude": {
-            // ".eslintrc.js": true,
+            ".eslintrc.js": true,
             ".gitignore": true,
             ".prettierrc.js": true,
             "index.html": true,
