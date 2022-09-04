@@ -16,6 +16,13 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Cache files
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/node_modules
+            ~/yarn.lock
+
       - name: Build
         run: yarn build
 
