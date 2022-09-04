@@ -4,7 +4,6 @@ module.exports = {
       rules: {
             // BASE
             indent: ["error", 6, { SwitchCase: 1 }],
-            "jsx-quotes": ["error", "prefer-double"],
             "max-len": ["error", { code: 250 }],
             quotes: "off",
             semi: "off",
